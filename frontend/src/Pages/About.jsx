@@ -13,7 +13,7 @@ function About() {
   return (
     <div className='w-full flex flex-col items-center md:items-start md:flex-row justify-center mt-2 gap-x-10'>
         <div className='w-[200px]'>
-            <img src="../../res/divyansh.jpeg" alt="" className='w-[200px] rounded-sm' />
+            <img src="./res/divyansh.jpeg" alt="" className='w-[200px] rounded-sm' />
         </div> 
         <div className='w-full p-5 md:w-[700px] md:p-0'>
             {intro.map((para,index)=>{

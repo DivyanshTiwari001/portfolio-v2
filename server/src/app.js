@@ -14,10 +14,6 @@ app.use(cookieParser())
 app.use(express.json({limit:"10kb"}))
 
 
-app.get("/health-check",(req,res)=>{
-    res.send("Everything is fine")
-})
-
 // user routes
 import projectRouter from './routes/project.routes.js'
 import achievementRouter from './routes/achievement.routes.js'
