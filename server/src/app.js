@@ -13,7 +13,6 @@ app.use(cors(options))
 app.use(cookieParser())
 app.use(express.json({limit:"10kb"}))
 
-
 // user routes
 import projectRouter from './routes/project.routes.js'
 import achievementRouter from './routes/achievement.routes.js'
