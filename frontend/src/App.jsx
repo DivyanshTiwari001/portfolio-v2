@@ -16,7 +16,7 @@ function App() {
 
         {/* nav  */}
         <div className='mt-5 w-full flex flex-row justify-center'>
-          <ul className = "w-fit sm:w-full flex flex-row items-start border-2 border-gray-300 text-sm @min-[415px]:text-base md:text-xl cursor-pointer font-serif">
+          <ul className = "w-fit sm:w-full flex flex-row items-start border-2 border-gray-300 text-[12px] @min-[415px]:text-base md:text-xl cursor-pointer font-serif">
           <NavLink  to='/' className={({isActive})=>isActive?'bg-black text-white hover:bg-gray-300 hover:text-black ' : 'bg-white text-black hover:bg-gray-300'}>
             <li className='border-r-2 p-2 border-gray-300'>
               About
